@@ -28,26 +28,48 @@
                 } else if(e.keyCode == 54) {
                     let a = prompt("du ser en dörr. öppnar du den? ja/nej")
                     if(a === "ja") {
-                        alert("en man bakom dörren tog fram sin yxa och dödade dig.")
+                        alert("en man bakom dörren tog fram sin yxa och dödade dig. du kom till helvetet. :(")
                     } else {
                         let b = prompt("bakom dig ser du en krabba. du tar upp den och ser att den är en giftig krabba. lägger du ner den på marken? ja/nej")
                         if(b === "ja") {
                             let c = prompt("krabban springer iväg. du ser en vild noa i djungeln. går du fram till noa? ja/nej")
                             if(c === "ja") {
-                                alert("du går fram till noa. noa åt upp dig.")
+                                alert("du går fram till noa. noa åt upp dig. du kom till helvetet. :(")
                             } else {
                                 let d = prompt("krabban springer mot dig. ska du attackera krabban? ja/nej")
                                 if(d === "ja") {
                                     let e = prompt("krabban dog. ut från krabbans kropp kom en skottsäker sörja. dricker du upp det? ja/nej")
                                     if(e === "ja") {
-                                        alert("du vann spelet!")
+                                        alert("du känner dig vimlig, ramlade ihop och dog. du kom till helvetet :(")
                                     } else {
-                                        alert("dörren öppnades och en man kom ut från den. han halshögg dig.")
+                                        alert("dörren öppnades och en man kom ut från den. han halshögg dig. du kom till helvetet. :(")
+                                    }
+                                } else {
+                                    let f = prompt("krabban ser att du är vänlig. krabban springer till noa. krabban dödade noa. går du fram till noas lik? ja/nej")
+                                    if(f === "ja") {
+                                        let g = prompt("noa hade ett spjut i sin koja. tar du den? ja/nej")
+                                        if(g === "ja") {
+                                            let h = prompt("du sprang iväg från krabban. dörren öppnades och en man kom ut. han höll en yxa och försöker döda dig. attackerar du han med ditt spjut? ja/nej")
+                                            if(h === "ja") {
+                                                alert("mannen dog, men hans medhjälpare dödade dig bakifrån. du kom till helvetet. :(")
+                                            } else {
+                                                let i = prompt("du verkar ha kommit till himlen. du ser en blå portal. går du in i den? ja/nej")
+                                                if(i === "ja") {
+                                                    alert("du vann!")
+                                                } else {
+                                                    alert("du blev teleporterad till helvetet eftersom att jesus fick höra att du dödade en man. :(")
+                                                }
+                                            }
+                                        } else {
+                                            alert("krabban blev arg på dig för att den trodde du skulle ta krabbans mat (noa). du blev dödad av krabban. du kom till helvetet. :(")
+                                        }
+                                    } else {
+                                        alert("ett flygplan krashade rakt i ditt huvud. du kom till helvetet :(")
                                     }
                                 }
                             }
                         } else {
-                            alert("krabban bet dig. du dog.")
+                            alert("krabban bet dig. du dog. du kom till helvetet. :(")
                         }
                     }
                 } else {
