@@ -25,6 +25,31 @@
                     } else {
                         window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
                     }
+                } else if(e.keyCode == 54) {
+                    let a = prompt("du ser en dörr. öppnar du den? ja/nej")
+                    if(a === "ja") {
+                        alert("en man bakom dörren tog fram sin yxa och dödade dig.")
+                    } else {
+                        let b = prompt("bakom dig ser du en krabba. du tar upp den och ser att den är en giftig krabba. lägger du ner den på marken? ja/nej")
+                        if(b === "ja") {
+                            let c = prompt("krabban springer iväg. du ser en vild noa i djungeln. går du fram till noa? ja/nej")
+                            if(c === "ja") {
+                                alert("du går fram till noa. noa åt upp dig.")
+                            } else {
+                                let d = prompt("krabban springer mot dig. ska du attackera krabban? ja/nej")
+                                if(d === "ja") {
+                                    let e = prompt("krabban dog. ut från krabbans kropp kom en skottsäker sörja. dricker du upp det? ja/nej")
+                                    if(e === "ja") {
+                                        alert("du vann spelet!")
+                                    } else {
+                                        alert("dörren öppnades och en man kom ut från den. han halshögg dig.")
+                                    }
+                                }
+                            }
+                        } else {
+                            alert("krabban bet dig. du dog.")
+                        }
+                    }
                 } else {
                     window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
                 }
