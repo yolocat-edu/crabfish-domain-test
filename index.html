@@ -18,6 +18,9 @@
                     window.location.href = "http://corndog.io";
                 } else if(e.keyCode == 13) {
                     document.querySelector("h4").innerText = "isak är lesbisk";
+                    setTimeout(()=>{
+                        document.querySelector("h4").innerText = "tryck på + för en överraskning";
+                    })
                 } else if(e.keyCode == 83) {
                     let janej = prompt("heter du william skriver du 'ja'. heter du inte william skriver du 'nej'.");
                     if(janej === "ja") {
